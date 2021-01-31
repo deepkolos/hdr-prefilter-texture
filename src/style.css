@@ -1,0 +1,120 @@
+html,
+body {
+  font: 14px/1.21 'Helvetica Neue', arial, sans-serif;
+  font-weight: 400;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.page {
+  padding: 7vw;
+  padding-bottom: 0;
+  min-height: 100vh;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  display: inline-flex;
+  align-items: center;
+  text-decoration: none;
+  color: black;
+  font-size: larger;
+}
+
+.title svg {
+  margin-right: 5px;
+  transform: scale(0.9);
+}
+
+.desc {
+  padding: 10px 0;
+}
+
+.form {
+  display: flex;
+  margin-top: 20px;
+}
+
+.btn {
+  padding: 10px;
+}
+
+input.input-file[type='file' i] {
+  flex: auto;
+}
+
+input.input-file[type='file' i]::-webkit-file-upload-button {
+  padding: 10px;
+}
+
+.diff-can {
+  position: relative;
+  z-index: 0;
+  background-color: aliceblue;
+}
+
+.diff {
+  display: flex;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.diff canvas {
+  min-width: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.diff-head {
+  display: flex;
+}
+
+.diff-head div {
+  flex: auto;
+  text-align: center;
+  padding: 10px 0;
+  margin-top: 20px;
+}
+
+.canvas-save {
+  display: none;
+}
+
+.foot {
+  text-align: center;
+  padding: 20px 0;
+  font-size: smaller;
+  color: rgb(207, 207, 207);
+}
+
+.size-table {
+  background-color: aliceblue;
+  margin-top: 20px;
+}
+
+.size-table-row {
+  display: flex;
+  padding: 10px;
+}
+
+.size-table-row div:nth-child(1) {
+  flex: auto;
+  min-width: 0;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.size-table-row div:nth-child(2),
+.size-table-row div:nth-child(3),
+.size-table-row div:nth-child(4) {
+  flex: none;
+  min-width: 80px;
+}
