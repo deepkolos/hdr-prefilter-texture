@@ -9,7 +9,7 @@
     "dev": "preact watch --sw false --no-prerender --esm false",
     "lint": "eslint src"
   },
-  "homepage": "https://deepkolos.github.io/hdr-prefilter-texture",
+  "homepage": "https://deepkolos.github.io/hdr-prefilter-texture/index.html",
   "author": {
     "name": "DeepKolos",
     "url": "https://github.com/deepkolos"
