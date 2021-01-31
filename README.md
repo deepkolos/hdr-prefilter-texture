@@ -27,7 +27,7 @@ TextureLoader -> 设置texture属性 -> 设置scene.environment
 
 其实也是一个优化的思路，其他纹理需要经过特定处理才能直接使用的，均可以把产生物导出。
 
-### Demo
+### [Demo](https://deepkolos.github.io/hdr-prefilter-texture/index.html)
 
 <img src="https://raw.githubusercontent.com/deepkolos/hdr-prefilter-texture/master/demo.jpg" width="250" alt="" style="display:inline-block;"/>
 
