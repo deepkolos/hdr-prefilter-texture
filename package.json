@@ -4,11 +4,12 @@
   "version": "1.0.0",
   "license": "MIT",
   "scripts": {
-    "build": "preact build",
+    "build": "preact build --sw false --no-prerender --esm false",
     "serve": "sirv build --port 8080 --cors --single",
-    "dev": "preact watch",
+    "dev": "preact watch --sw false --no-prerender --esm false",
     "lint": "eslint src"
   },
+  "homepage": "https://deepkolos.github.io/hdr-prefilter-texture",
   "author": {
     "name": "DeepKolos",
     "url": "https://github.com/deepkolos"
@@ -28,6 +29,6 @@
   "dependencies": {
     "preact": "^10.1.0",
     "preact-render-to-string": "^5.1.2",
-    "three-platformize": "^1.0.5"
+    "three-platformize": "^1.0.6"
   }
 }

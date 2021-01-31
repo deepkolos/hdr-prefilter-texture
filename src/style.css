@@ -10,7 +10,7 @@ body {
 }
 
 .page {
-  padding: 7vw;
+  padding: 20px 7vw;
   padding-bottom: 0;
   min-height: 100vh;
   box-sizing: border-box;

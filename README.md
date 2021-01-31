@@ -21,6 +21,8 @@ RGBELoader -> PMREMGenerator -> 设置scene.environment
 TextureLoader -> 设置texture属性 -> 设置scene.environment
 ```
 
+而`PMREMGenerator`产物导出后的PNG只有**1046.863kb**，体积减少了**4415.182kb**
+
 所以就有了这个`HDRPrefilterTexture`的项目，同时解决小程序下某些机型 bug，同时也优化加载时间，**但是**仅仅适用于 HDR 需要`PMREMGenerator`处理的场景。
 
 其实也是一个优化的思路，其他纹理需要经过特定处理才能直接使用的，均可以把产生物导出。
