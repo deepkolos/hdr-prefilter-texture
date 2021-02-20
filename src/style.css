@@ -118,3 +118,11 @@ input.input-file[type='file' i]::-webkit-file-upload-button {
   flex: none;
   min-width: 80px;
 }
+
+.version {
+  font-size: 11px;
+  display: inline-block;
+  background-color: aliceblue;
+  padding: 1px 3px;
+  margin-left: 5px;
+}

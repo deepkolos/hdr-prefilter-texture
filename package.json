@@ -27,6 +27,7 @@
     "sirv-cli": "^1.0.3"
   },
   "dependencies": {
+    "pngjs": "^6.0.0",
     "preact": "^10.1.0",
     "preact-render-to-string": "^5.1.2",
     "three-platformize": "^1.0.6"
