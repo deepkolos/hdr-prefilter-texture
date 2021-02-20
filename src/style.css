@@ -122,7 +122,8 @@ input.input-file[type='file' i]::-webkit-file-upload-button {
 .version {
   font-size: 11px;
   display: inline-block;
-  background-color: aliceblue;
+  background-color: rgb(240, 248, 255);
+  color: #123456;
   padding: 1px 3px;
   margin-left: 5px;
 }
