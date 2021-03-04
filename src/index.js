@@ -102,8 +102,8 @@ export default function App() {
       const pngFile = new File([blob], file.name.replace(/\.hdr$/i, '.png'));
       resolve({
         name: file.name.replace(/\.hdr$/i, '.png'),
-        blob,
-        file: pngFile,
+        blob: pngFile,
+        file,
         target,
       });
 
